@@ -1,0 +1,558 @@
+ <section className="user-sec">
+                <div className="container">
+                    <div className="row heading-row align-items-center mb-5">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+                            <Heading title="Top User"/>
+                        </div>
+                        {/*col-xl-6 col-lg-6 col-md-6*/}
+
+                        <div className="col-xl-6 col-g-6 col-md-6 col-12">
+                            <div className="select-box text-xl-end text-md-end">
+                                <select className="select">
+                                    <option value="0">Seller</option>
+                                    <option value="0">Buyer</option>
+                                </select>
+                            </div>
+                            {/*select-box*/}
+                        </div>
+                        {/*col-xl-6 col-g-6 col-md-6c*/}
+                    </div>
+                    {/*row heading-row*/}
+
+                    <div className="row top-row mb-5">
+                        <div className="col-xl-4 col-lg-6 col-md-6">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-6 col-md-12 mb-md-2">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-6 col-md-12">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+                                            </ul>
+                                           {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                              {/*row inner-row*/}
+                            </div>
+                           {/*user-box*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-6 col-md-6">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-6 col-md-12 mb-md-2">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                           {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-6 col-md-12">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+
+                                                <li>
+                                                    <router-link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></router-link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                       {/*social-icons*/}
+                                    </div>
+                                   {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                               {/*row inner-row*/}
+                            </div>
+                            {/*user-box*/}
+                        </div>
+                       {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-6 col-md-6">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-6 col-md-12 mb-md-2">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-6 col-md-12">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                  {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                               {/*row inner-row*/}
+                            </div>
+                            {/*user-box*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+                    </div>
+                    {/*row top-row*/}
+
+                    <div className="row middle-row mb-5 d-md-none d-lg-none d-xl-flex">
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                                {/*row inner-row*/}
+                            </div>
+                            {/*user-box*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                           {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                   {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                                {/*<row inner-row*/}
+                            </div>
+                            {/*user-box*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*<cuser-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src="../assets/images/icons/social_icon2.svg" alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                      {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                             {/*row inner-row*/}
+                            </div>
+                            {/*user-box*/}
+                        </div>
+                       {/*col-xl-4 col-lg-4 col-md-4*/}
+                    </div>
+                    {/*row top-row*/}
+
+                    <div className="row bottom-row mb-5 d-md-none d-lg-none d-xl-flex">
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src="../assets/images/icons/verify.png" alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                           {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                           {/*user-info-text*/}
+                                        </div>
+                                        {/*<image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                           {/*social-list*/}
+                                        </div>
+                                       {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                               {/*row inner-row*/}
+                            </div>
+                            {/*user-box-*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                        {/*image-info-box*/}
+                                    </div>
+
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                                {/*row inner-row*/}
+                            </div>
+                          {/*user-box*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+
+                        <div className="col-xl-4 col-lg-4 col-md-4">
+                            <div className="user-box">
+                                <div className="row inner-row align-items-center">
+                                    <div className="col-xl-7 col-lg-7 col-md-7">
+                                        <div className="image-info-box">
+                                            <div className="user-image">
+                                                <img src={require("../assets/images/home/user-1.png")} alt="user"
+                                                     className="img-fluid"/>
+
+                                                <img src={require("../assets/images/icons/verify.png")} alt="verify"
+                                                     className="img-fluid verify"/>
+                                            </div>
+                                            {/*user-image*/}
+
+                                            <div className="user-info-text">
+                                                <h2>Sara Evans</h2>
+                                                <h3>783.28 <span>Trx</span></h3>
+                                            </div>
+                                            {/*user-info-text*/}
+                                        </div>
+                                       {/*image-info-box*/}
+                                    </div>
+                                    {/*col-xl-7 col-lg-7 col-md-7*/}
+
+                                    <div className="col-xl-5 col-lg-5 col-md-5">
+                                        <div className="social-icons">
+                                            <ul className="social-list">
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon1.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon2.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to=""><img
+                                                        src={require("../assets/images/icons/social_icon3.svg")} alt="socialicon"
+                                                        className="img-fluid"/></Link>
+                                                </li>
+                                            </ul>
+                                            {/*social-list*/}
+                                        </div>
+                                        {/*social-icons*/}
+                                    </div>
+                                    {/*col-xl-5 col-lg-5 col-md-5*/}
+                                </div>
+                                {/*row inner-row*/}
+                            </div>
+                            {/*user-boxc*/}
+                        </div>
+                        {/*col-xl-4 col-lg-4 col-md-4*/}
+                    </div>
+                    {/*row top-row*/}
+
+                    <div className="row button-row">
+                        <div className="col-xl-5 col-md-5 col-lg-5 mx-auto">
+                            <div className="view-more-btn">
+                                <button className="btn btn-primary">View More <img
+                                    src={require("../assets/images/icons/arrow.png")} alt="arrow" className="img-fluid"/></button>
+                            </div>
+                            {/*view-more-btn*/}
+                        </div>
+                    </div>
+                    {/*row button-rowcc*/}
+
+                </div>
+                {/*container*/}
+            </section>
+            {/*user-sec*/}
+
+
+

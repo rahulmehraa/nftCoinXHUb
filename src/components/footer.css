@@ -1,0 +1,99 @@
+.footer {
+    background-color: var(--black);
+    padding: 40px 0;
+}
+
+.company-info p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: justify;
+    line-height: 23px;
+}
+
+.footer-box .footer-heading h6 {
+    color: var(--yellow);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.footer-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 9px;
+}
+
+.footer-list li:nth-child(7) {
+    margin-bottom: 0;
+}
+
+.footer-list li a {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-sold-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-sold-list li {
+    border-bottom: 1px solid var(--sub-text);
+    margin-bottom: 5px;
+}
+
+.footer-sold-list li:nth-child(3) {
+    border-bottom: none;
+}
+
+.footer-sold-list li .sold-box {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-sold-list li .sold-box .sold-info h5 {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-sold-list li .sold-box .sold-info p {
+    color: var(--sub-text);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer-sold-list li .sold-box .sold-info h6 {
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+    .footer-sold-list li .sold-box .sold-info p {
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1199px) {
+    .footer-sold-list li .sold-box .sold-info p {
+        font-size: 10px;
+    }
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1024px) {
+    .footer-sold-list li .sold-box .sold-info p {
+        font-size: 10px;
+    }
+}

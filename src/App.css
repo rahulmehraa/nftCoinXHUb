@@ -1,0 +1,181 @@
+#app {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --black: #13110F;
+  --white: #fff;
+  --button-color: #3E3C3A;
+  --sub-text: #818181;
+  --yellow: #F19122;
+  --gradient: linear-gradient(to right top, #b20b0b, #c73708, #dc5604, #ee7300, #ff9000);
+  --red: #B40F0A;
+  --dropshadow: drop-shadow(0 3px 13px #0000005c);
+  --div-dropshadow: box-shadow rgba(99, 99, 99, 0.07) 0px 2px 8px 0px;
+;
+  --sec-bg: #F9F9FB;
+  --border: #E3E3E3;
+  --social-border: #B40F0A4F;
+  --slider-bg: #F6F4E1;
+  --disable-bg: #E9E9E9;
+  --disable-border: #CCCCCC;
+  --subscribe-bg:#F8D4D3;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Black.ttf);
+  font-weight: 900;
+}
+
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  left: 10px;
+  right: auto;
+  min-height: 50px;
+  min-width: 50px;
+  background-color: var(--slider-bg);
+  opacity: 90%;
+  border-radius: 34px;
+  border: 2px solid var(--yellow);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.swiper-button-next {
+  background-image: url(./assets/images/icons/right-icon.svg);
+}
+
+.swiper-button-prev {
+  background-image: url(./assets/images/icons/left-icon.svg);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  background-color: var(--disable-bg);
+  opacity: 70.1% !important;
+  border: 2px solid var(--disable-border);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next.swiper-button-disabled {
+  background-image: url(./assets/images/icons/disable-right.svg);
+}
+
+.swiper-button-prev.swiper-button-disabled {
+  background-image: url(./assets/images/icons/disable-left.svg);
+}
+
+/**=================================================== DISCOVER SEC SWIPER CSS START ===================================================**/
+
+.swiper-inner-box .swiper-button-prev,
+.swiper-inner-box .swiper-button-next {
+  min-width: auto;
+  min-height: auto;
+  background-color: var(--white);
+  border: none;
+  border-radius: 0;
+  opacity: 100% !important;
+}
+
+.swiper-inner-box .swiper-slide {
+  text-align: center;
+}
+
+.swiper-inner-box .swiper-button-next {
+  background-image: url(./assets/images/icons/dis-arrow-right.svg);
+  border-left: 1px solid var(--border);
+  right: 0;
+}
+
+.swiper-inner-box .swiper-button-prev {
+  background-image: url(./assets/images/icons/dis-arrow-left.svg);
+  border-right: 1px solid var(--border);
+  left: 0;
+}
+
+.swiper-inner-box .swiper-button-next.swiper-button-disabled {
+  background-image: url(./assets/images/icons/dis-arrow-right.svg);
+}
+
+.swiper-inner-box .swiper-button-prev.swiper-button-disabled {
+  background-image: url(./assets/images/icons/dis-arrow-left.svg);
+}
+
+/**=================================================== DISCOVER SEC SWIPER CSS FINISH ===================================================**/
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  section {
+    padding: 40px 0;
+  }
+}
